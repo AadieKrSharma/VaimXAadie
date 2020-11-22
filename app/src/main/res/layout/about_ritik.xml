@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="30px"
+    app:cardBackgroundColor="#fff">
+
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@mipmap/rk"
+        android:layout_margin="15dp"
+        android:transitionName="logo2"
+        android:layout_gravity="top|center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/fredoka_one"
+        android:layout_marginTop="5dp"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:transitionName="name2"
+        android:text="Hacking &amp; Technology"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Project Head &amp; Core Ideologist"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center|bottom"
+        android:text="A Naughty student with a long vision of serving his country from cyber criminals by providing best in class anti-hacking security. "
+        android:textAlignment="center"
+        android:layout_marginBottom="20sp"
+        android:layout_marginTop="180dp"/>
+
+</androidx.cardview.widget.CardView>

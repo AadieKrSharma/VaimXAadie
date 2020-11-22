@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#33364d"
+    android:theme="@style/AppTheme.NoActionBar"
+    tools:context="com.mr.programmerlab.androidkeylogger.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Enter the Port and Select Start Service"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.476" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="340dp"
+        android:layout_height="49dp"
+        android:background="@drawable/button"
+        android:text="Set-UP"
+        android:fontFamily="@font/fredoka_one"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="340dp"
+        android:layout_height="49dp"
+        android:background="@drawable/button"
+        android:text="Start Service!"
+        android:fontFamily="@font/fredoka_one"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.583" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="167dp"
+        android:layout_height="106dp"
+        android:background="@drawable/channel_button"
+        android:drawableStart="@mipmap/my_logo"
+        android:text="Subscribe to Mr. Programmer SharmaJI "
+        android:textColor="#33364d"
+        android:textSize="10dp"
+        android:transitionName="logo1"
+        android:fontFamily="@font/fredoka_one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.929" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Profiling"
+        android:layout_width="313dp"
+        android:layout_height="175dp"
+        android:outlineAmbientShadowColor="#fff"
+        android:transitionName="bgbanner"
+        android:textAlignment="center"
+        app:cardBackgroundColor="#109e92"
+        app:cardCornerRadius="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.174">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="269dp"
+            android:layout_height="123dp"
+            android:layout_gravity="center|top"
+            android:src="@mipmap/vaimxaadie"
+            android:transitionName="banner"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.45"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.327" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Profilingx"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:outlineAmbientShadowColor="#fff"
+            android:textAlignment="center"
+            app:cardBackgroundColor="#fff"
+            android:transitionName="logobg"
+            app:cardCornerRadius="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.583"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.174">
+
+            <ImageView
+                android:layout_width="183dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/image2"
+                android:layout_gravity="center|bottom"
+                android:src="@mipmap/appname"
+                android:transitionName="appnameIcon"/>
+        </androidx.cardview.widget.CardView>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="The Keylogger of Next Gen!"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="167dp"
+        android:layout_height="106dp"
+        android:background="@drawable/channel_button"
+        android:text="Subscribe to Hacking &amp; Technology "
+        android:textSize="10dp"
+        android:textColor="#33364d"
+        android:transitionName="logo2"
+        android:fontFamily="@font/fredoka_one"
+        android:drawableStart="@mipmap/rk"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.929" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

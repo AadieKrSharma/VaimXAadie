@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">System Services</string>
+    <string name="accessibility_service_label">System Services</string>
+    <string name="title_activity_main_view">MainView</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="agreement">I accept this Agreement and I myself is responsible for whatsoever I do with this application</string>
+    <string name="btn_agree">Accept &amp; Continue</string>
+</resources>

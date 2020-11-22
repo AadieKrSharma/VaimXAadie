@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#33364d"
+    android:theme="@style/AppTheme.NoActionBar"
+    tools:context="com.mr.programmerlab.androidkeylogger.MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="About us/This Project"
+        android:textColor="#fff"
+        android:textFontWeight="200"
+        android:textSize="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.086" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Profiling"
+        android:layout_width="313dp"
+        android:layout_height="175dp"
+        android:outlineAmbientShadowColor="#fff"
+        android:transitionName="bgbanner"
+        android:textAlignment="center"
+        app:cardBackgroundColor="#109e92"
+        app:cardCornerRadius="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.334">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="269dp"
+            android:layout_height="123dp"
+            android:layout_gravity="center|top"
+            android:src="@mipmap/vaimxaadie"
+            android:transitionName="banner"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.45"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.327" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Profilingx"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:outlineAmbientShadowColor="#fff"
+            android:transitionName="logobg"
+            android:textAlignment="center"
+            app:cardBackgroundColor="#fff"
+            app:cardCornerRadius="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.583"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.174">
+
+            <ImageView
+                android:layout_width="183dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:src="@mipmap/appname"
+                android:transitionName="appnameIcon"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:text="\u00A9 Mr. Programmer SharmaJI &amp; Vaimpier Ritik.
+                       All Rights Reserved"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.973" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        app:cardCornerRadius="30px"
+        android:id="@+id/aadie"
+        android:transitionName="logo1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.191"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.802" >
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@mipmap/my_logo"
+            android:transitionName="logo1"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap to know More!"
+            android:textSize="10dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mr. Programmer SharmaJi"
+            android:textAlignment="center"
+            android:transitionName="name1"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/fredoka_one"
+            android:textColor="#000"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        app:cardCornerRadius="30px"
+        android:id="@+id/vaim"
+        android:transitionName="logo2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.802" >
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            app:srcCompat="@mipmap/rk"
+            android:transitionName="logo2"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="top|center"/>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap to know More!"
+            android:textSize="10dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="7dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vaimpier Ritik"
+            android:textAlignment="center"
+            android:transitionName="name2"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="25dp"
+            android:fontFamily="@font/fredoka_one"
+            android:textColor="#000" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

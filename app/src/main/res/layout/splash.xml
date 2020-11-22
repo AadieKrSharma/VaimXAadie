@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#33364d"
+    tools:context="com.mr.programmerlab.androidkeylogger.Splash">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/applogo"
+        android:layout_width="174dp"
+        android:layout_height="174dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.342">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="159dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            app:srcCompat="@mipmap/applogo" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/appname"
+        android:layout_width="266dp"
+        android:layout_height="98dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="50sp"
+        android:transitionName="appname"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.816">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="296dp"
+            android:layout_height="92dp"
+            app:srcCompat="@mipmap/appname"
+            android:layout_gravity="center"
+            android:transitionName="appnameIcon"/>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
